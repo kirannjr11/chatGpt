@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: rgba(3,0,31);
+    color: white;
+    font-family: 'Poppins';
+}
+
+.App {
+    min-height: 100vh;
+    display: flex;
+}
+
+.sideBar {
+    flex: 3;
+    border-right: 2px solid rgb(100, 100, 100);
+
+}
+
+.logo {
+    margin-right: 1rem;
+}
+
+.brand {
+    font-size: 3rem;
+}
+
+.uppsersideTop {
+    padding: 2 rem;
+}
+
+
+.main {
+    flex: 9;
+}
