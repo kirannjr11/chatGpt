@@ -3,6 +3,10 @@ import './App.css';
 import chatgpt from './assets/chatgpt.png'
 import plus from './assets/plus.png'
 import message from './assets/message.png'
+import home from './assets/home.png'
+import ssaved from './assets/ssaved.png'
+import upgrade from './assets/upgrade.png'
+
 
 
 function App() {
@@ -33,8 +37,21 @@ function App() {
           </div>
         </div>
 
-        <div className="lowerSide">
+        <div className='divider'></div>
 
+        <div className="lowerSide">
+          <div className="Items">
+            <img src={home} className="listItems"/>
+            <span>Home</span>
+            </div>
+          <div className="Items">
+            <img src={ssaved} className="listItems"/>
+           <span> Saved</span>
+            </div>
+          <div className="Items">
+            <img src={upgrade} className="listItems"/>
+            <span>Upgrade</span>
+            </div>
         </div>
       </div>
 
