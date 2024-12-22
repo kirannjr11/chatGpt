@@ -7,6 +7,7 @@ import home from './assets/home.png'
 import ssaved from './assets/ssaved.png'
 import upgrade from './assets/upgrade.png'
 import send from './assets/send.png'
+import user from './assets/user.png'
 
 
 
@@ -60,8 +61,8 @@ function App() {
       <div className="main">
         <div className="chats">
           <div className="chat">
-            <img src={chatgpt} className="logo" />
-            <p className="txt">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur non repellat quisquam autem fugiat quia magni laudantium nulla. Unde, hic?</p>
+            <img src={user} className="logo" />
+            <p className="txt">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur non repellat quisquam autem fugiat quia magni laudantium nulla. Unde, hic? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia repellat ducimus obcaecati pariatur quos molestias ipsum quia sint et odit dolore, debitis, veritatis vel quidem sed ipsa. Nisi, porro cumque.</p>
           </div>
 
           <div className="chat">
