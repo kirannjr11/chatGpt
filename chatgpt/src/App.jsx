@@ -6,6 +6,8 @@ import message from './assets/message.png'
 import home from './assets/home.png'
 import ssaved from './assets/ssaved.png'
 import upgrade from './assets/upgrade.png'
+import send from './assets/send.png'
+
 
 
 
@@ -41,22 +43,40 @@ function App() {
 
         <div className="lowerSide">
           <div className="Items">
-            <img src={home} className="listItems"/>
+            <img src={home} className="listItems" />
             <span>Home</span>
-            </div>
+          </div>
           <div className="Items">
-            <img src={ssaved} className="listItems"/>
-           <span> Saved</span>
-            </div>
+            <img src={ssaved} className="listItems" />
+            <span> Saved</span>
+          </div>
           <div className="Items">
-            <img src={upgrade} className="listItems"/>
+            <img src={upgrade} className="listItems" />
             <span>Upgrade</span>
-            </div>
+          </div>
         </div>
       </div>
 
       <div className="main">
+        <div className="chats">
+          <div className="chat">
+            <img src={chatgpt} className="logo" />
+            <p className="txt">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur non repellat quisquam autem fugiat quia magni laudantium nulla. Unde, hic?</p>
+          </div>
 
+          <div className="chat">
+            <img src={chatgpt} className="logo" />
+            <p className="txt">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur non repellat quisquam autem fugiat quia magni laudantium nulla. Unde, hic?</p>
+          </div>
+
+        </div>
+
+        <div className="chatFooter">
+          <div className="inp">
+            <input type='text' placeholder='write a querries' />
+            <button className="send"><img src={send} /></button>
+          </div>
+        </div>
       </div>
     </div>
   )
